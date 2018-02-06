@@ -1,4 +1,7 @@
-body {background-color:#FFC5BE;}
+body {
+	background-color:#FFC5BE;
+	font-size: 1.2em;
+}
 
 	a:link, a:visited {
 		color: #6232FF; 
@@ -9,10 +12,11 @@ body {background-color:#FFC5BE;}
 		text-decoration: underline; 
 	}
 
-	
+
 /*left justify text on the centered wrap div */
 .resume {
 	text-align: left; 
+		
 	
 }
 
@@ -21,13 +25,38 @@ body {background-color:#FFC5BE;}
 	border: solid 1px black; 
 	background: white; 
 	color: black;
-	padding: 20px;
-	margin-top: 10px;
-	margin-bottom: 20px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	display: inline-block;
 }
 
-/* Div formatting for pictures */
-.photos {
-	width: 10%;
+#navlist li{
+	display: block;
+	font-weight: bold;
+	text-align: left;
+	padding: 10px;
+}
+
+h2 {
+	font-variant: small-caps;
+	text-decoration: underline ;
+}
+
+h1 {
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+
+.main {
+	width: 100%;
+	float: left;
+	padding: 5px;
+	border: 1px solid black ;
+}
+
+img {
+	width: 100%;
+	height: 20%;
+	
 }
