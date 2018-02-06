@@ -15,8 +15,10 @@ body {
 
 /*left justify text on the centered wrap div */
 .resume {
-	text-align: left; 
-		
+	text-align: left;
+	font-size: 1.0em;
+	border: 1px solid black;
+	padding: 20px;
 	
 }
 
@@ -60,3 +62,4 @@ img {
 	height: 20%;
 	
 }
+
