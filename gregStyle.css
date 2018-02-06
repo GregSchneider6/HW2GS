@@ -1,5 +1,13 @@
 body {background-color:#FFC5BE;}
 
+	a:link, a:visited, {color: #6232FF; text-decoration: none;}
+	<a:hover, {
+	
+		color: red; 
+		text-decoration: underline, bold; 
+		
+	}
+
 
 
 
