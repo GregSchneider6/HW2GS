@@ -1,15 +1,33 @@
 body {background-color:#FFC5BE;}
 
-	a:link, a:visited, {color: #6232FF; text-decoration: none;}
-	<a:hover, {
+	a:link, a:visited {
+		color: #6232FF; 
+		text-decoration: none;}
 	
+	a:hover {
 		color: red; 
-		text-decoration: underline, bold; 
-		
+		text-decoration: underline; 
 	}
 
-
-
-
 	
+/*left justify text on the centered wrap div */
+.resume {
+	text-align: left; 
+	
+}
 
+/* Div formatting for pictures */
+.pictures {
+	border: solid 1px black; 
+	background: white; 
+	color: black;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+/* Div formatting for pictures */
+.photos {
+	width: 10%;
+}
